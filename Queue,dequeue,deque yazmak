@@ -1,0 +1,88 @@
+"""class Stack():
+    def __init__(self):
+        self.elements = []
+    def isEmpty(self):
+        return self.elements == []
+    def push(self,element):
+        self.elements.append(element)
+    def pop(self):
+        return self.elements.pop()
+    def showLast(self):
+        return self.elements[-1]
+    def size(self):
+        return len(self.elements)
+    def showStack(self):
+        return self.elements
+
+stack = Stack()
+print(stack.isEmpty())
+print(stack.push(10))
+print(stack.push(11))
+print(stack.push("a"))
+print(stack.showStack())
+print(stack.pop())
+stack.pop()
+print(stack.showLast())
+print(stack.showStack())
+
+-----------------------------------------------------------------------------------------------------------------------------
+class Queue():
+    def __init__(self):
+        self.elements = []
+    def isEmpty(self):
+         return self.elements == []
+    def enqueue(self,element):
+        self.elements.insert(0,element)
+    def dequeue(self):
+        return self.elements.pop()
+    def size(self):
+        return len(self.elements)
+    def showQueue(self):
+        return self.elements
+myQueue = Queue()
+
+print(myQueue.isEmpty())
+myQueue.enqueue(10)
+myQueue.enqueue(11)
+myQueue.enqueue(31)
+myQueue.enqueue(32)
+print(myQueue.showQueue())
+myQueue.dequeue()
+myQueue.dequeue()
+print (myQueue.size())
+print(myQueue.showQueue())
+
+
+------------------------------------------------------------
+
+class Deque():
+    def __init__(self):
+        self.elements = []
+    def showDeque(self):
+        return self.elements
+    def isEmpty(self):
+        return self.elements == []
+    def addLeft(self,element):
+        self.elements.insert(0,element)
+    def addRight(self,element):
+        self.elements.append(element)
+    def removeRight(self):
+        self.elements.pop()
+    def removeLeft(self):
+        self.elements.pop(0)
+
+
+
+myDeque = Deque()
+print(myDeque.isEmpty())
+myDeque.addRight(10)
+myDeque.addRight(20)
+myDeque.addLeft(30)
+myDeque.addLeft((40))
+print(myDeque.showDeque())
+myDeque.removeRight()
+print(myDeque.showDeque())
+myDeque.removeLeft()
+print(myDeque.showDeque())
+
+ """
